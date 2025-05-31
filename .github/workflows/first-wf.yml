@@ -5,6 +5,6 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - name: print-greeting
-     run : echo "Hello World"
-   - name: print str
-     run: echo "STR is a atman"
+     run : |
+      echo "Hello World"
+      echo "STR is a atman"
